@@ -1,0 +1,4 @@
+name,expr,sense,rhs
+cap,x + y,<=,4
+cap,x,>=,0
+cap,y,>=,0

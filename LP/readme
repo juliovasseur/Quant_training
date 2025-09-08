@@ -1,0 +1,21 @@
+### 3. Programmation linéaire (LP)
+
+**Objectif :**  
+Trouver les valeurs optimales (maximum ou minimum) d’une fonction linéaire, tout en respectant des contraintes elles aussi linéaires.
+
+**Exemple :**
+
+Minimiser :  
+`3x + 2y`
+
+Sous contraintes :  
+- `x + y ≤ 4`  
+- `x ≥ 0`  
+- `y ≥ 0`
+
+**Interprétation :**  
+On cherche les valeurs de `x` et `y` qui rendent la somme `3x + 2y` la plus petite possible, sans dépasser la limite imposée par les contraintes.
+
+**Librairies utiles en Python :**
+- **PuLP** : Simple à utiliser pour modéliser et résoudre des problèmes de programmation linéaire.
+- **OR-Tools** : Plus rapide et adapté aux problèmes de grande taille ou complexes.
