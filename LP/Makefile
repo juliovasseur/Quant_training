@@ -60,7 +60,7 @@ install: venv
 # 	fi
 
 run:
-	@python3 src/lpSolver/lite.py ./data
+	@python3 main.py ./data
 
 # === Nettoyage léger ===
 clean:
